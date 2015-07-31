@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    android:id = "@+id/relativetop"
+    android:transitionName="relativemain">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/lineatop"
+        android:transitionName="linearmain">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/linearinside"
+            android:transitionName="linearsearch">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/searchvector"
+                android:background="@color/windowBackground"
+                android:id = "@+id/searchbutton"
+                android:transitionName="search"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/windowBackground"
+                android:hint="Search for Opportunities"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"
+                android:textColorHint="@color/textColorPrimary"
+                android:paddingLeft="10dp"
+                android:textColor = "@color/textColorPrimary"
+                android:id="@+id/searchtext"
+                android:transitionName="searchtext"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/textColorPrimary"
+            android:id = "@+id/divider"
+            android:transitionName="divider"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id = "@+id/recycler">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="66dp"
+        android:id = "@+id/framedim"
+        android:transitionName="framedim">
+    </FrameLayout>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/redcircle"
+        android:src="@drawable/plusvector"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:elevation="10dp"
+        android:id = "@+id/addopportunitybutton"
+        android:transitionName="addoppo"/>
+</RelativeLayout>

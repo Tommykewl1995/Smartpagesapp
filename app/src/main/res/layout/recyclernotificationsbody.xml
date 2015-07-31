@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/windowBackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69.5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:text="3:35 PM"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/recyclenotitime"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="@color/textColorPrimary"
+            android:text="blablabla"
+            android:id="@+id/recyclenotinoti"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/textColorPrimary"/>
+</LinearLayout>

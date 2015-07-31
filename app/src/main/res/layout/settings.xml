@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background = "@color/windowBackground"
+            android:padding = "16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "16dp"
+                android:textColor = "?colorPrimary"
+                android:text = "User Controls"
+                android:layout_marginBottom = "15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:orientation = "horizontal"
+                android:layout_marginTop = "15dp"
+                android:layout_marginBottom = "15dp">
+                <ImageView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:padding = "5dp"
+                    android:src = "@drawable/checkboxemptyvector"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:id = "@+id/displaycontactnumber"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "18dp"
+                        android:textColor="@color/textColorPrimary"
+                        android:text = "Display contact number"
+                        android:layout_marginBottom="5dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "16dp"
+                        android:textColor="@color/textColorSecondary"
+                        android:text = "Show contact numbers to others"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:orientation = "horizontal"
+                android:layout_marginTop = "15dp"
+                android:layout_marginBottom = "15dp">
+                <ImageView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:padding = "5dp"
+                    android:src = "@drawable/checkboxemptyvector"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:id = "@+id/popupnotifications"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "18dp"
+                        android:textColor="@color/textColorPrimary"
+                        android:text = "Popup notifications"
+                        android:layout_marginBottom="5dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "16dp"
+                        android:textColor="@color/textColorSecondary"
+                        android:text = "Allow Notifications"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "16dp"
+                android:textColor = "?colorPrimary"
+                android:text = "Commend"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom = "15dp"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:orientation = "horizontal"
+                android:layout_marginTop = "15dp"
+                android:layout_marginBottom = "15dp">
+                <ImageView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:padding = "5dp"
+                    android:src = "@drawable/sharevector"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_vertical"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "18dp"
+                        android:textColor="@color/textColorPrimary"
+                        android:text = "Share"
+                        android:layout_marginBottom="5dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "16dp"
+                        android:textColor="@color/textColorSecondary"
+                        android:text = "Share your experience with others"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:orientation = "horizontal"
+                android:layout_marginTop = "15dp"
+                android:layout_marginBottom = "15dp">
+                <ImageView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:padding = "5dp"
+                    android:src = "@drawable/starvector"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_vertical"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "18dp"
+                        android:textColor="@color/textColorPrimary"
+                        android:text = "Rate this app"
+                        android:layout_marginBottom="5dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "16dp"
+                        android:textColor="@color/textColorSecondary"
+                        android:text = "Rate app on play store"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:orientation = "horizontal"
+                android:layout_marginTop = "15dp"
+                android:layout_marginBottom = "15dp">
+                <ImageView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:padding = "5dp"
+                    android:src = "@drawable/feedbackvector"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_vertical"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "18dp"
+                        android:textColor="@color/textColorPrimary"
+                        android:text = "Send feedback"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/sendfeedback"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize = "16dp"
+                        android:textColor="@color/textColorSecondary"
+                        android:text = "Send feedback to us"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize = "16dp"
+                android:textColor = "?colorPrimary"
+                android:text = "Others"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom = "15dp"
+                android:textStyle="bold"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:orientation = "horizontal"
+                    android:layout_marginTop = "15dp"
+                    android:layout_marginBottom = "15dp">
+                    <ImageView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:padding = "5dp"
+                        android:src = "@drawable/onvector"
+                        android:layout_marginRight="20dp"
+                        android:layout_gravity="center_vertical"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize = "18dp"
+                            android:textColor="@color/textColorPrimary"
+                            android:text = "Log out"
+                            android:layout_marginBottom="5dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize = "16dp"
+                            android:textColor="@color/textColorSecondary"
+                            android:text = "Leave the app"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id = "@+id/logout"/>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

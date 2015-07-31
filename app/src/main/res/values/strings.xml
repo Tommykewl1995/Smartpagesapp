@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">Smartpages1.1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Rs">\u20B9</string>
+    <string name="rs">\u20A8</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name= "welcome">Smartpage</string>
+    <string name="search_hint">Sonesh Jain</string>
+    <string name="intramojoappid">efc4e5c916d775b175d9496804977f0b</string>
+    <string name="intramojoapptoken">c3f10dda537707e4991a9a17c46773f5</string>
+    <string name="instamojouri">https://www.instamojo.com/</string>
+    <string name="feedbackheader">Smartpage feedback lets you send us suggeestions about our products. We welcome problem reports, feature ideas and general comments</string>
+    <string name="feedbackcontent">Start by writing a brief description</string>
+    <string name="feedbackfooter">Next we\'ll let you identify ideas of the product related to your description</string>
+    <string name="cognalysapp_id">c2a209fcb0eb4dd8b4a50ac</string>
+    <string name="cognalysaccess_token">b7275ffdf43bf57f4cf04f8ba8a1eb5cbaefc779</string>
+
+
+
+    <string name="reportheader">We at Audegn strive to make sure the best in class customer service and product development. Kindly report the issue you are facing. Our tech-team ninjas are waiting for your command.</string>
+    <string name="reportcontent">Start by defining your problem</string>
+
+    
+    
+    <string-array name="nav_drawer_items">
+        <item >Profile</item>
+        <item >Transactions</item>
+        <item >Notifications</item>
+        <item >Settings</item>
+        <item >Terms</item>
+        <item >Developers</item>
+        <item>Report a problem</item>
+        <item >Help</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/personvector</item>
+        <item>@drawable/transactionsvector</item>
+        <item>@drawable/notificationsvector</item>
+        <item>@drawable/settingsvector</item>
+        <item>@drawable/termsvector</item>
+        <item>@drawable/developersvector</item>
+        <item>@drawable/repostproblemvector</item>
+        <item>@drawable/helpvector</item>
+    </array>
+    
+    
+    
+    <string name="help1">What can I sell?</string>
+    <string name="help2">Can I upload a file?</string>
+    <string name="help3">How much can I sell a product for?</string>
+    <string name="help4">I don\'t live in the United States. Can I still use Chec?</string>
+    <string name="help5">Do you support international currencies?</string>
+    <string name="help6">How much does it cost?</string>
+    <string name="help7">Do you charge a fee if my customer goes through PayPal?</string>
+    <string name="help8">How will I get paid?</string>
+    <string name="help9">Is Chec secure?</string>
+    <string name="help10">The FAQ didn\'t answer my question. Who do I contact?</string>
+    <string name="help11">Contact us directly</string>
+    <string name="help12">Experiencing problems? Want a refund?</string>
+    <string name="helpa1">People use Chec to sell t-shirts, independent music albums, videos, and even collect donations. As we state, you can sell anything, with a few understandable exceptions as outlined in the User Agreement.</string>
+    <string name="helpa2">Absolutely! We\'ll host it in our servers. You can upload any sort of file from your computer. Have a book in PDF format? No problem. Selling an album? Sure. Just make sure that the file is under 500mb, and you have the rights to distribute the file..</string>
+    <string name="helpa3">In USD, you can price a product for as low as $0.50 and as much as $100,000.</string>
+    <string name="helpa4">Yes, Chec is available worldwide.</string>
+    <string name="helpa5">Yes, we do. Currently, we have support for USD, GBP, EURO, CAD, YEN, BRL, AUD $, and NZ $.</string>
+    <string name="helpa6">It is only 3.5% per transaction. Let\'s say you are selling a ticket to your show for $100. The fee is $3.50 and $96.50 is deposited into your account. There are no setup, monthly, hosting, or hidden fees.</string>
+    <string name="helpa7">Yes, we charge a 2% fee for all transactions processed via PayPal, unless you are subscribed to our powerseller plan. There are no setup, monthly, hosting, or hidden fees.</string>
+    <string name="helpa8">Payouts are issued every second friday, for all transactions up until a week before that date. (Provided your balance is over $20). Merchants are paid out into their PayPal accounts, or US Bank Accounts.</string>
+    <string name="helpa9">Of course! We hold ourselves to the highest standard when it comes to the security of your private information and transaction. All transactions are fully encrypted and SSL secured, and processed via a PCI Compliant Server.</string>
+    <string name="helpa10">We take customer service very seriously. If you have any questions, feel free to email us directly athello@trychec.com.</string>
+    <string name="helpa12">If you are having trouble with a product you have purchased, we recommend contacting the seller directly in the email given to you in the receipt. If they are not responsive or uncooperative, please forward a copy of your email to us and any other details you think are relevant and we will resolve this issue for you.</string>
+    
+    
+    <string name="privacypolicyh">Privacy Policy</string>
+    <string name="privacypolicyc">This Privacy Policy will describe how we will collect, handle and use any information, including but not exclusive to personal information, provided to us through your use of the services provided by trychec.com (the website) and Swipe Inc (the company).</string>
+    <string name="termsh">Terms</string>
+    <string name="terms1">The Website – Refers to the website, tools and applications found on the audegn.com website.</string>
+    <string name="terms2">The Company – Refers to the company Audegn Innovation Labs(TM) and Audegn Design Technologies Pvt Ltd. We made Smartpage.</string>
+    <string name="terms3">The Service – Refers to the use of the website, tools and applications found on trychec.com and ch.eckout.com.</string>
+    <string name="acknowledgementh">Acknowledgement</string>
+    <string name="acknowledgementc">By signing up and using The Service you agree to abide by and accept the Terms of Use and Privacy Policy of The Website and accept any decision made in accordance with these rules displayed here.\nBy accepting the Privacy Policy and the Terms of Use, you expressly consent to our collection, storage, use and disclosure of your personal information as described in this Privacy Policy.\nThis Privacy Policy is effective upon acceptance for new users and is otherwise effective from February 24, 2013</string>
+    <string name="data_collection">Data Collection</string>
+    <string name="data1h">What is personal data?</string>
+    <string name="data1c">Personal Data – Refers to data that would allow someone to be able to identify or contact you.\nExamples of personal data; name, address, telephone number, e-mail address and other forms of associated non-public personally identifiable information that is linked to you or your personal data.</string>
+    <string name="data2h">What is anonymous data?</string>
+    <string name="data2c">Anonymous Data – Refers to data that is not associated with or linked to your personal data.\nExamples of anonymous data include; traffic analytics, user trends and other forms of aggregated data. Anonymous data does not, by itself, allow the identification of individual persons or accounts.</string>
+    <string name="data3h">Do I have to provide personal data?</string>
+    <string name="data3c">To browse the website you do not need to provide any personal data, however in order to use The Service you will need to provide some essential personal data for security and processing purposes.\nIf you have provided us with Personal Data, you are no longer anonymous and you consent to the transfer and storage of that data on our secure United States servers.\nWhat personal data will we collect and store?</string>
+    <string name="data3c1">Identity data	Name, e-mail address, phone number, contact information etc.</string>
+    <string name="data3c2">Financial data	Such as credit card or bank account numbers.</string>
+    <string name="data3c3">Transaction data	Buying, selling, content creation and other activities performed during your use of The Website.</string>
+    <string name="data3c4">Logistical data	Shipping, billing and other information you provide when purchasing.</string>
+    <string name="data3c5">Community data	Messages, dispute resolution, feedback, correspondence through The Website and correspondence sent directly to us.</string>
+    <string name="data3c6">Interaction data	Data from your interaction with The Website, Service and content, including device ID, computer and connection information, statistics for page views and traffic, IP address and other web log information.</string>
+    <string name="data3c7">Security data	Data you to submit to authenticate yourself. We may ask for this if we believe you are violating site policies. For example, we may ask you to send us proof of identity in the form of a utility bill or other identifying source to verify your address. We may also ask you to answer additional questions to verify your identity or ownership of a product.</string>
+    <string name="data3c8">Demographic data	Data from other companies such as demographic and navigation data.</string>
+    <string name="data3c9">Correspondence data	When you provide us feedback or otherwise contact, we will collect your name and e-mail address, as well as any other content included in the correspondence. This is done so that we can reply to you in the future.</string>
+    <string name="data3c10">Third party data	Any additional information provided by third parties.</string>
+    <string name="cookiesh">Do we use cookies?</string>
+    <string name="cookiesc">We use cookies and URL information to gather information regarding the date and time of your visit and the information you searched for and viewed.</string>
+    <string name="cookieswhath">What are cookies?</string>
+    <string name="cookieswhatc">"Cookies" are pieces of information that a website sends to your computer’s hard drive while you are viewing the Website. We use;</string>
+    <string name="cookieswhatc1">Session Cookies These will expire once you close your web browser</string>
+    <string name="cookieswhatc2">Persistent Cookies	These will stay on your computer until you delete them. Assistance with this can be found in your browsers help section. We do this to provide you with a personalised and interactive experience whilst using The Website.</string>
+    <string name="thirdpartydatah">How do we use third party data?</string>
+    <string name="thirdpartydatac">We may on occasion receive Personal and/or Anonymous Data about you from Third party companies who we work with.\nWhen these third party companies and/or individuals supply us with Personal Data, we may add this data to the data we already have provided by you in order to improve The Service we provide.</string>
+    <string name="thirdpartyloginh">Third-Party Login and registration</string>
+    <string name="thirdpartyloginc">We may offer login services that allow you to use third party login details to sign into The Website. With your permission, we may also transfer to The Website profile information contained in your third-party profile.\nWe may also, for your convenience, enable you to import information about yourself and your contacts, as well as enable you to share information with those third-party sites. If you wish to disable sharing, you will be able to do so.</string>
+    <string name="informationshareh">What information will be shared by The Website?</string>
+    <string name="informationsharec">Some information you provide, such as your seller name, may be displayed throughout the Website, and thus also available to the public.</string>
+    <string name="whatinfoh">What information will be shared on my computer?</string>
+    <string name="whatinfoc">If you access The Website from a shared computer or a computer in an public library for example, some information about you may be visible to other individuals who use the computer after you.</string>
+    <string name="datauseh">Data Use</string>
+    <string name="datausec">Our primary purpose in collecting Personal Data is to provide you with a safe, smooth, efficient, and tailored experience. You agree that we may use your Personal Data to:</string>
+    <string name="datausec1">Facilitate the creation of and secure your account on our network.</string>
+    <string name="datausec2">Identify you as a user in the system</string>
+    <string name="datausec3">Send you a welcome e-mail to verify ownership of the e-mail address provided on sign up.</string>
+    <string name="datausec4">Respond to your inquiries related to employment opportunities or other requests.</string>
+    <string name="datausec5">Provide The Service and customer support you request.</string>
+    <string name="datausec6">Resolve disputes, collect fees, and troubleshoot problems.</string>
+    <string name="datausec7">Prevent, detect, and investigate potentially prohibited or illegal activities, and enforce our Terms of Use.</string>
+    <string name="datausec8">Customize, measure and improve The Service and content.</string>
+    <string name="datausec9">Tell you about The Service, updates, and promotional offers based on your preferences.</string>
+    <string name="datausec10">Compare information for accuracy and verify it with third parties.</string>
+    <string name="datausec11">Any other uses described at the time of data collection.</string>
+    <string name="creatinganonymoush">Creating anonymous data sets</string>
+    <string name="creatinganonymousc">We may create Anonymous Data sets from Personal Data by excluding personally identifiable information. We use this Anonymous Data to enhance the content of The Service and improve site navigation.\nWe reserve the right to use Anonymous Data for any purpose and disclose Anonymous Data to third parties in our sole discretion.</string>
+    <string name="sharingdatah">Sharing of Personal Data</string>
+    <string name="sharingdatac">We may disclose Personal Data to respond to legal requirements, enforce our policies, respond to claims that a listing or other content violates the rights of others, or to protect anyone\'s rights, property or safety.\nThis information will be disclosed in accordance with applicable laws and regulations.</string>
+    <string name="whoelseh">Who else could personal data shared with?</string>
+    <string name="whoelsec1">Service providers under contract who help with our business operations Examples include; fraud investigations, bill collection, affiliate and rewards programs. Other third parties to whom you explicitly ask us to send your information or about whom you are otherwise explicitly notified and consent to when using a specific service.</string>
+    <string name="whoelsec2">Law enforcement, governmental agencies, or authorized third-parties, in response to a verified request relating to a criminal investigation or alleged illegal activity or any other activity that may expose us, you, or any other Chec User to legal liability.</string>
+    <string name="whoelsec3">In such events, we will disclose information relevant to the investigation, such as name, city, state, ZIP/post code, telephone number, e-mail address, User ID history, IP address, fraud complaints, transaction history, and anything else we may deem relevant to the investigation.Other business entities, should we plan to merge with or be acquired by another business entity, or any parent company, subsidiaries or other companies we will require that the new combined entity follow this Privacy Policy with respect to your Personal Data. If your personal information will be used contrary to this policy, you will receive prior notice</string>
+    <string name="whoelsec4">In the event of an insolvency, bankruptcy or receivership, your Personal Data may also be transferred as a business asset.</string>
+    <string name="usinginfoh">Using Information provided by The Website</string>
+    <string name="usinginfoc">The Website enables you to share personal and financial information to complete transactions and collect payments. We cannot guarantee the privacy or security of your information and therefore we encourage you to evaluate the privacy and security policies of your trading partner before entering into a transaction and choosing to share your information.\nTo help protect your privacy, we allow only limited access to other User\'s contact, shipping and financial information to facilitate your transactions and collect payments.\nWhen Users are involved in a transaction, they may have access to each other\'s name, User ID, e-mail address and other contact and shipping information. In all cases, you must give other Users a chance to remove themselves from your database and a chance to review what information you have collected about them.\nYou agree to use User information only for:</string>
+    <string name="usinginfoc1">Chec transaction-related purposes that are not unsolicited commercial messages;</string>
+    <string name="usinginfoc2">using services offered through The Website e.g. Shipping and fraud complaints</string>
+    <string name="usinginfoc3">Other purposes that a User has expressly chosen</string>
+    <string name="spamh">Spam and email scanning</string>
+    <string name="spamc1">We don’t like spam.</string>
+    <string name="spamc2">You don’t like spam.</string>
+    <string name="spamc3">Make sure to set your communication preferences how you like them.</string>
+    <string name="spamc4">You are not licensed to add other Users, even a User who has purchased an item from you, to your mailing list (e-mail or physical mail) without their express consent.</string>
+    <string name="spamc5">To report spam to us, please forward the e-mail to *********@******** or report using the form on The Website.</string>
+    <string name="spamc6">You may not use our communication tools to send spam or otherwise send content that would violate our Terms of Use.</string>
+    <string name="spamc7">We may automatically scan and manually filter messages to check for spam, viruses, phishing attacks and other malicious activity or illegal or prohibited content.</string>
+    <string name="securityh">Security</string>
+    <string name="howtoprotect">How to best protect your Password?</string>
+    <string name="howtoprotectc1">Your password is the key to your account. Use unique numbers, letters and special characters, and do not disclose your Chec password to anyone.</string>
+    <string name="howtoprotectc2">If you do share your password or your Personal Data with others, remember that you are responsible for all actions taken in the name of your account.</string>
+    <string name="howtoprotectc3">If you lose control of your password, you may lose substantial control over your Personal Data and may be subject to legally binding actions taken on your behalf. Therefore, if your password has been compromised for any reason, you should immediately notify us and change your password.</string>
+    <string name="howinfostoredh">How is the information stored?</string>
+    <string name="howinfostoredc">Your information is stored on our servers located in the United Kingdom.\nWe use a variety of industry-standard security technologies and procedures to help protect your Personal Data from unauthorized access, use or disclosure. However, as you probably know, third parties may unlawfully intercept or access transmissions or private communications, and other Users may abuse or misuse your Personal Data that they collect from the Website. Therefore, although we work very hard to protect your privacy, we do not promise, and you should not expect, that your Personal Data or private communications will always remain private.</string>
+    <string name="accessremovechangeh">Accessing, reviewing, changing and removing your personal data</string>
+    <string name="accessremovechangec1">You may change any of your Personal Data in your account by editing your settings within your account or by sending an e-mail to our customer services.</string>
+    <string name="accessremovechangec2">You may request deletion of your Personal Data by us, but please note that we may be required to keep this information and not delete it (or to keep this information for a certain time, in which case we will comply with your deletion request only after we have fulfilled such requirements).</string>
+    <string name="accessremovechangec3">Upon your request, we will close your account and remove your Personal Data from view as soon as reasonably possible, based on your account activity and in accordance with applicable law.</string>
+    <string name="accessremovechangec4">We do retain Personal Data from closed accounts to comply with law, prevent fraud, collect any fees owed, resolve disputes, troubleshoot problems, assist with any investigations, enforce our Terms of Use, and take other actions otherwise permitted by law.</string>
+    <string name="thirdpartiesh">Third Parties</string>
+    <string name="thirdpartiesc1">Except as otherwise expressly included in this Privacy Policy, this document addresses only the use and disclosure of information we collect from you.</string>
+    <string name="thirdpartiesc2">If you disclose your information to others, different rules may apply to their use or disclosure of the information you disclose to them.</string>
+    <string name="thirdpartiesc3">We do not control the privacy policies of third parties, and you are subject to the privacy policies of those third parties where applicable.</string>
+    <string name="thirdpartiesc">We urge you learn about and to be sure before you disclose your personal data to others.</string>
+    <string name="changesh">Changes to this Privacy Policy</string>
+    <string name="changesc">This Privacy Policy is subject to occasional revision, and if we make any material changes in the way we use your Personal Data, we will notify you by sending you an e-mail to the last e-mail address you provided to us and/or by prominently posting notice of the changes on our Website.</string>
+    <string name="changesc1">Any changes to this Privacy Policy will be effective upon the earlier of thirty (30) calendar days following our dispatch of an e-mail notice to you or thirty (30) calendar days following our posting of notice of the changes on our Website.</string>
+    <string name="changesc2">These changes will be effective immediately for new Users of our Service.</string>
+    <string name="changesc3">Please note that at all times you are responsible for updating your Personal Data to provide us with your most current e-mail address. In the event that the last e-mail address that you have provided us is not valid, or for any reason is not capable of delivering to you the notice described above, our dispatch of the e-mail containing such notice will nonetheless constitute effective notice of the changes described in the notice.</string>
+    <string name="changesc4">In any event, changes to this Privacy Policy may affect our use of Personal Data that you provided us prior to our notification to you of the changes. If you do not wish to permit changes in our use of your Personal Data, you must notify us prior to the effective date of the changes that you wish to deactivate your account with us.</string>
+    <string name="changesc5">Continued use of our Website or Service following notice of such changes shall indicate your acknowledgement of such changes and agreement to be bound by the terms and conditions of such changes.</string>
+</resources>

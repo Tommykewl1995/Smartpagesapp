@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionManager xmlns:android="http://schemas.android.com/apk/res/android">
+    <transition
+        android:fromScene="@layout/mainfragment"
+        android:toScene="@layout/postanoppurtunity"
+        android:transition="@transition/oppotransition"/>
+    <transition
+        android:fromScene="@layout/postanoppurtunity"
+        android:toScene="@layout/mainfragment"
+        android:transition="@transition/oppotransition"/>
+</transitionManager>

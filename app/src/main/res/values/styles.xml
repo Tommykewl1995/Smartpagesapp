@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:editTextBackground">@drawable/apptheme_holo_edittext_light</item>
+    </style>
+    <style name="Edit" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/apptheme_holo_edittext_light</item>
+    </style>
+    <style name="Header" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif-bold</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+    <style name="Date" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+    <style name="Week" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+</resources>

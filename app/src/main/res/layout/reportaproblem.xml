@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding = "16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reportheader"
+                android:textColor="@color/textColorSecondary"
+                android:textSize="16dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reportcontent"
+                android:textColor="@color/textColorPrimary"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginBottom="15dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/infotextgrey"
+                android:hint="Write something"
+                android:textColor="@color/textColorPrimary"
+                android:gravity="top"
+                android:textSize="16dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/feedbackedittext"/>
+        </LinearLayout>
+    </ScrollView>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/redcircle"
+        android:src="@drawable/sendvectorwhite"
+        android:elevation="10dp"
+        android:id="@+id/feedbacksendbutton"/>
+</RelativeLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    android:id = "@+id/framedim"
+    android:transitionName="framedim"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:foreground="@drawable/whiterectangle">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackground"
+        android:id = "@+id/relativetop"
+        android:transitionName="relativemain">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id = "@+id/frameopportunity"
+            android:transitionName="frame"
+            android:background="@color/windowBackground"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id = "@+id/lineartopoppo">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id = "@+id/relativeoppotop">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:text="AN OPPORTUNITY WORTH SHARING"
+                        android:id = "@+id/textopportunity"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@color/windowBackground"
+                        android:src="@drawable/sendvector"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:id = "@+id/addopportunitybutton"/>
+                </RelativeLayout>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id = "@+id/opposcroll">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/postimage"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:orientation="vertical"
+                        android:id = "@+id/opposcrolllinear">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:fontFamily="sans-serif-light"
+                            android:id ="@+id/postsubject"
+                            android:hint = "Title*"
+                            android:text=""
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="15dp"
+                            android:textColorHint="@color/textColorSecondary"
+                            android:background="@drawable/infotextgrey"
+                            android:textSize="15dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:inputType="textCapSentences"/>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:hint = "What's Your Oppurtunity?*"
+                            android:gravity="start"
+                            android:text=""
+                            android:fontFamily="sans-serif-light"
+                            android:id ="@+id/postanoppurtunity"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="15dp"
+                            android:textColorHint="@color/textColorSecondary"
+                            android:background="@drawable/infotextgrey"
+                            android:textSize="15dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/colorPrimary"
+                            android:inputType="textCapSentences"/>
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/infotextblack"
+                            android:layout_marginBottom="10dp"
+                            android:id = "@+id/postspinner"
+                            android:gravity="center"
+                            android:textColor="@color/colorPrimary"></Spinner>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id = "@+id/opporelativetime">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text = "Set expiry"
+                                android:textColor="@android:color/black"
+                                android:fontFamily="sans-serif-medium"
+                                android:id ="@+id/setexpiry"
+                                android:padding ="5dp"
+                                android:textSize="15dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_centerVertical="true"/>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:id = "@+id/lineartimecontainer">
+                                <ImageButton
+                                    android:layout_width="60dp"
+                                    android:layout_height="40dp"
+                                    android:id ="@+id/postdate"
+                                    android:src = "@drawable/calendervector"
+                                    android:paddingTop="15dp"
+                                    android:paddingBottom="15dp"
+                                    android:paddingLeft="15dp"
+                                    android:paddingRight="15dp"
+                                    android:background="@drawable/ripples"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:gravity="center"/>
+
+                                <ImageButton
+                                    android:layout_width="60dp"
+                                    android:layout_height="40dp"
+                                    android:id ="@+id/posttime"
+                                    android:src="@drawable/clockvector"
+                                    android:background="@drawable/ripples"
+                                    android:paddingTop="10dp"
+                                    android:paddingBottom="10dp"
+                                    android:paddingLeft="15dp"
+                                    android:paddingRight="15dp"
+                                    android:textSize="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"/>
+                            </LinearLayout>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id = "@+id/relativeimageupload">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:text = "Attach photos and videos"
+                                android:textColor="@android:color/black"
+                                android:fontFamily="sans-serif-medium"
+                                android:padding ="5dp"
+                                android:textSize="15dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center_vertical"
+                                android:id="@+id/attachtext" />
+                            <ImageButton
+                                android:layout_width="60dp"
+                                android:layout_height="40dp"
+                                android:src = "@drawable/cameravectorblack"
+                                android:background="@drawable/ripples"
+                                android:paddingLeft="15dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp"
+                                android:id = "@+id/attachcamera"
+                                android:layout_toLeftOf="@+id/attachgallery"/>
+                            <ImageButton
+                                android:layout_width="60dp"
+                                android:layout_height="40dp"
+                                android:src = "@drawable/attachmentvector"
+                                android:background="@drawable/ripples"
+                                android:paddingLeft="15dp"
+                                android:paddingRight="15dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:id = "@+id/attachgallery"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"/>
+                        </RelativeLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:id = "@+id/llattachphotos">
+                        </LinearLayout>
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint = "Price (Optional)"
+                            android:gravity="start"
+                            android:fontFamily="sans-serif-light"
+                            android:id ="@+id/postprice"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="15dp"
+                            android:textColorHint="@color/textColorSecondary"
+                            android:background="@drawable/infotextgrey"
+                            android:textSize="15dp"
+                            android:textColor="@color/colorPrimary"
+                            android:inputType="number"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"/>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>
